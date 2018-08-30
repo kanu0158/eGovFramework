@@ -6,7 +6,6 @@ import java.util.Map;
 import org.springframework.stereotype.Repository;
 
 import com.gms.web.domain.ArticleDTO;
-import com.gms.web.domain.MemberDTO;
 @Repository
 public interface BoardMapper {
 	public void insert(ArticleDTO p);

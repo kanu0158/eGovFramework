@@ -12,7 +12,7 @@ import com.gms.web.domain.MemberDTO;
 import com.gms.web.mapper.MemberMapper;
 import com.gms.web.service.MemberService;
 @Service
-public class MemberServiceImpl implements MemberService {
+public class MemberServiceImpl implements MemberService{
 	@Autowired MemberMapper memberDAO;
 	@Override
 	public void add(MemberDTO p) {
