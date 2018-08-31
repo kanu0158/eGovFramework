@@ -15,8 +15,6 @@
     <link href="${context}/resources/otherResources/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
     <link href="${context}/resources/otherResources/dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
 	
-	
-	
 	<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	<%-- <script src="${context}/resources/js/app.js"></script> --%>
@@ -43,5 +41,6 @@
 	); */
 	/* app.init('${context}'); */
 </script>
+
 </body>
 </html>

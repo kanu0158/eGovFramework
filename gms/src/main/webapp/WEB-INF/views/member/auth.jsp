@@ -115,5 +115,7 @@ $('#boardListBtn').click(function(){
 	alert('auth.jsp in boardListBtn 클릭  ');
 	/* location.href ='${context}/move/user/member/modify'; */
 });
-
+$('#logOutBtn').click(()=>{
+	location.href ='${context}/member/logout';
+});
 </script>

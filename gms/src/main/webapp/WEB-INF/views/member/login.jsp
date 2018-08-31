@@ -11,6 +11,7 @@
 	</div> <!-- content end -->
 <script>
 $('#loginFormBtn').click(function(){
+	alert('login폼버튼 클릭!');
 	$('#loginForm').attr({
 		action:"${context}/member/login",
 		method:"POST"

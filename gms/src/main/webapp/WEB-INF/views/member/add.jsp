@@ -37,3 +37,18 @@
 	</form>
 	</div>
 	</div> <!-- content end -->
+<script>
+$('#addFormBtn').click(function(){
+	alert('addFormBtn 클릭 : ');
+	/*var form = document.getElementById('addForm');
+	form.action = app.x()+"/member/add";  이렇게하면 action은 어트리뷰트->프로퍼티로 바뀌고 값을 바꿀수있게된다. 
+	form.method = "post";
+	form.submit();*/
+	$('#addForm').attr({
+		action:"${context}/member/add",
+		method:"POST"
+	})
+	.submit();
+	
+});
+</script>

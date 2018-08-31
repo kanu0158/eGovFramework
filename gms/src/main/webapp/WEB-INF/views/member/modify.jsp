@@ -6,11 +6,11 @@
 	<tr>
 		<td rowspan="3"></td>
 		<td>ID</td>
-		<td colspan="2">${user.userId}</td>
+		<td colspan="2"><input id="userId" type="text" name="userId" value="${user.userId}" readonly/></td>
 	</tr>
 	<tr>
 		<td>이름</td>
-		<td colspan="2">${user.name}</td>
+		<td colspan="2"><input id="name" type="text" name="name" value="${user.name}" readonly/></td>
 	</tr>
 	<tr>
 		<td>비번</td>
@@ -51,6 +51,7 @@
   <input type="submit" value="파일업로드">
 </form>
  --%>
+ 
  <script>
  $('#modifyFormBtn').click(function(){
 		alert('modifyFormBtn 클릭  ');

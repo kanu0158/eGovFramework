@@ -7,7 +7,7 @@
     SELECT USERID, TEAMID, PASSWORD, NAME, SSN, ROLL, AGE, GENDER, SUBJECT FROM MEMBER 
     WHERE USERID LIKE #{userId}
   </select>
-  <insert id="add">
+  <insert id="insert">
   	INSERT INTO MEMBER
 	( USERID, TEAMID, PASSWORD, NAME, SSN, ROLL, AGE, GENDER, SUBJECT )
 	VALUES
@@ -18,12 +18,12 @@
     WHERE USERID LIKE #{userId}
     	AND PASSWORD LIKE #{password}
   </select>
-  <delete id="remove">
+  <delete id="delete">
   	DELETE FROM MEMBER 
 	WHERE USERID LIKE #{userId}
 			AND PASSWORD LIKE #{password};
   </delete>
-  <update id="modify">
+  <update id="update">
   	UPDATE MEMBER
 	SET ROLL = #{roll},PASSWORD = #{password},TEAMID = #{teamId}
 	WHERE USERID LIKE #{userId};
