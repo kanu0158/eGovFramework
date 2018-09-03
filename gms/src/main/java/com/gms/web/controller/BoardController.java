@@ -25,7 +25,7 @@ public class BoardController {
 	public String add(@ModelAttribute("article") ArticleDTO article) {
 		logger.info("BoardController ::: add ");
 		/*System.out.println("name is "+board.getName());
-		
+		SDAS
 		System.out.println("--------------------------------------");
 		System.out.println(member.getUserId());
 		System.out.println(member.getPassword());
